@@ -4,9 +4,14 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import { SiSemanticuireact } from "react-icons/si";
+import { SiDjango } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
+import { DiScrum } from "react-icons/di";
 
 export const stackData = [
   {
@@ -25,6 +30,7 @@ export const stackData = [
     title: "Node JS",
     img: imgNode,
   },
+  { title: "TypeScript", img: SiTypescript },
   {
     title: "Styled Components",
     img: imgStyled,
@@ -33,7 +39,11 @@ export const stackData = [
     title: "React",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
-  { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  { title: "Sematic Web Design", img: SiSemanticuireact },
+  { title: "Python", img: FaPython },
+  { title: "Django", img: SiDjango },
+  { title: "MySQL", img: SiMysql },
+  { title: "SQLite", img: SiSqlite },
+  { title: "PostgreSQL", img: SiPostgresql },
+  { title: "Scrum", img: DiScrum },
 ];
